@@ -1,4 +1,4 @@
-// 3. Write HTML & JS to pull cards from the same deck until the deck is empty (see also: cards.html)
+// Pt. 3 - Write HTML & JS to pull cards from the same deck until the deck is empty (see also: cards.html)
 
 let deckId = null;
 

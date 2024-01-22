@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémanz hehe!!! xD</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eaf6f6;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+    
+        #generatePokemon {
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fcfefe;
+            background-color: #66bfbf;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+    
+        #generatePokemon:hover {
+            background-color: #f76b8a;
+        }
+    
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .card {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fcfefe;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+        .pokemon-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>    
+</head>
+<body>
+    <button id="generatePokemon">Generate Pokémon</button>
+    <div id="pokemonDisplay" class="card-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
