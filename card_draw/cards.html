@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Draw</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            background-color: #eaf6f6; 
+            text-align: center;
+            padding: 20px;
+        }
+    
+        #drawCard {
+            padding: 12px 25px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff; 
+            background-color: #407088; 
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+    
+        #drawCard:hover {
+            background-color: #132743; 
+        }
+    
+        #cardContainer {
+            margin: auto;
+            width: 220px; 
+            background-color: #eaf6f6; 
+        }
+    
+        #card {
+            width: 100%;
+            height: auto;
+        }
+    </style>    
+</head>
+<body>
+    <div id="button">
+        <button id="drawCard">Draw a Card</button>
+    </div>
+    <p></p>
+    <div id="cardContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
